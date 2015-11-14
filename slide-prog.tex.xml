@@ -49,6 +49,13 @@
 </frame>
 
 <frame title="\insertsection">
+<block title="実習:Squeak">
+	自動運転プログラムの作成
+</block>
+<img src="car.png" scale=".25" title="自動運転プログラム" n="fig:drive"/>
+</frame>
+
+<frame title="\insertsection">
 <block class="alert" title="アルゴリズム">
 	<alert>問題を解く手順</alert>のこと
 	<ul>
