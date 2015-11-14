@@ -173,7 +173,7 @@
 <s h="モデル">
 <frame title="\insertsection">
 <block class="alert" title="モデル(model)">
-	現実の現象から<ruby r="じょうちょう">冗長</ruby>な部分を除いて、<em>本質的な部分のみに単純化</em>(<alert>抽象化</alert>)したもの
+	現実の現象から<ruby r="じょうちょう">冗長</ruby>な部分を除き、<em>本質的な部分のみに単純化</em>(<alert>抽象化</alert>)したもの
 	<ul>
 		<li mark="※"><alert>モデル化(modeling)</alert>: モデルを作成すること</li>
 	</ul>
