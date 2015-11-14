@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../texml2html.xsl"?>
+<log xmlns:xi="http://www.w3.org/2003/XInclude" title="プログラミング" by="" slide="1" embed="1" bib="slide-prog">
+<article>
+<s h="プログラミング">
+<frame title="\insertsection">
+<multicols>
+<column width="6cm">
+<block class="alert" title="プログラム">
+	実行すべき<alert>命令を書き並べた</alert>もの
+	<ul>
+		<li mark="※"><em>プログラミング</em><br/>プログラムを作成すること</li>
+	</ul>
+</block>
+</column>
+<column width="5cm">
+<block title="例: 式典のプログラム">
+	<ol>
+		<li>開式の辞</li>
+		<li>校歌</li>
+		<li>校長式辞</li>
+		<li>閉式の辞</li>
+	</ol>
+</block>
+</column>
+</multicols>
+
+<multicols num="2">
+<img src="turing.jpg" scale=".15" title="アラン・チューリング" n="fig:turing"/>
+<img src="neumann.jpg" scale=".25" title="フォン・ノイマン" n="fig:neumann"/>
+</multicols>
+
+<!--<block title="号令のプログラム">
+	<ul>
+		<li>起立</li>
+		<li>気をつけ</li>
+		<li>礼</li>
+		<li>着席</li>
+	</ul>
+</block>-->
+</frame>
+
+<frame title="\insertsection">
+<block class="alert" title="オブジェクト指向プログラミング">
+	互いに<em>メッセージ</em>を送る<alert>オブジェクト</alert>の集まりとしてプログラムを作成
+</block>
+
+<!-- TODO: オブジェクトのメッセージ交換の図 -->
+</frame>
+
+<frame title="\insertsection">
+<block class="alert" title="アルゴリズム">
+	<alert>問題を解く手順</alert>のこと
+	<ul>
+		<li mark="※"><em>フローチャート</em>(流れ図): アルゴリズムを図形と線で記述した図</li>
+	</ul>
+</block>
+
+<block title="例: 自然数$p$の素数判定" xml:id="prime">
+	<ol>
+		<li>$p = 1$なら$p$は素数でないので終了する</li>
+		<li>変数$n$に2を<em>代入</em>する<br/>
+			(代入文を$n = 2$と表す)</li>
+		<li>$n$が$p$より小さければ次の命令を実行
+			<ol>
+				<li>もし$p$が$n$で割り切れたら、$p$は合成数なので終了する</li>
+				<li>(そうでなければ、)nに1を加える</li>
+				<li>(3)へ戻る</li>
+			</ol>
+		</li>
+		<li>($n = p$より)$p$は素数だと分かったので終了する</li>
+	</ol>
+</block>
+
+<!-- FIXME: たぶん素数判定のほうが分かりやすい
+<block title="例: 二次方程式$ax^2 + bx + c = 0$を解く">
+	<ol>
+		<li>判別式$D (= b^2 - 4ac)$の値を求める</li>
+		<li>$D$の値により場合分けする
+			<ol>
+				<li>もし$D &gt; 0$なら、異なる2つの実数解が存在するので、次の値を求める
+					\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
+					</li>
+				<li>もし$D = 0$なら、重解をもつので、次の値を求める
+					\[ x = - \frac{b}{2a} \]</li>
+				<li>もし$D &lt; 0$なら、実数解をもたない</li>
+			</ol>
+		</li>
+	</ol>
+</block>-->
+</frame>
+
+<frame title="\insertsection">
+<block title="アルゴリズムの基本構造">
+	<multicols num="3">
+	<ul>
+		<li><alert>順次(逐次)</alert><br/>
+			命令を<em>1つずつ順に</em>、$s_1$の次に$s_2$を実行する<br/></li>
+		<li><alert>選択(条件分岐)</alert><br/>
+			条件$P$が真なら$s_1$、偽なら$s_2$と実行する<em>命令を選ぶ</em></li>
+		<li><alert>反復(繰り返し)</alert><br/>
+			条件$P$が真である限り<em>命令$s_1$を繰り返す</em></li>
+	</ul>
+	</multicols>
+	<img src="flow.svg" scale=".7" title="フローチャートの記号" n="fig:flow"/>
+</block>
+</frame>
+
+<frame title="\insertsection">
+<multicols>
+<column width="7cm">
+<xi:include xpointer="xpointer(id('prime'))"/>
+</column>
+<column width="5cm">
+	<img src="prime-empty.svg" scale=".5" title="素数判定" n="fig:prime-empty"/>
+</column>
+</multicols>
+</frame>
+
+<frame title="\insertsection">
+<multicols>
+<column width="7cm">
+<xi:include xpointer="xpointer(id('prime'))"/>
+</column>
+<column width="5cm">
+	<img src="prime.svg" scale=".5" title="素数判定" n="fig:prime"/>
+</column>
+</multicols>
+</frame>
+
+<frame title="\insertsection">
+<multicols>
+<column width="7cm">
+<block title="Scratchでの例">
+	<img src="prime-scratch.png" scale=".4"/>
+</block>
+</column>
+<column width="5cm">
+	<img src="prime.svg" scale=".5" title="フローチャート"/>
+</column>
+</multicols>
+</frame>
+
+<frame title="\insertsection">
+<multicols>
+<column width="7cm">
+<block title="Pythonでの例">
+	<code src="prime.py"/>
+</block>
+</column>
+<column width="5cm">
+	<img src="prime.svg" scale=".5" title="フローチャート"/>
+</column>
+</multicols>
+</frame>
+</s>
+
+<s h="モデル">
+<frame title="\insertsection">
+<block class="alert" title="モデル(model)">
+	現実の現象から冗長な部分を除いて、<em>本質的な部分のみに単純化</em>(<alert>抽象化</alert>)したもの
+	<ul>
+		<li mark="※"><alert>モデル化(modeling)</alert>: モデルを作成すること</li>
+	</ul>
+</block>
+
+<block title="モデル化の利点">
+	<ul>
+		<li>似た現象を同じ考え方で考察できるようになる</li>
+		<li><alert>現象の本質的な理解や分析が容易に</alert>なる</li>
+		<li><em>現象を擬似的に再現</em>(<alert>シミュレーション</alert>)できる</li>
+	</ul>
+</block>
+</frame>
+
+<frame title="\insertsection">
+<block title="モデルの妥当さ">
+	<em>何を現象の「本質」だと捉えるか</em>により、「良い」モデルは異なる
+	<ul>
+		<li><em>何を選び何を捨てるか</em>は、モデル作成の目的により変わる</li>
+		<li>現象のどの部分に<alert>意味</alert>を見出すかは、機械には判断できない</li>
+	</ul>
+</block>
+</frame>
+
+<!-- TODO: モデルの例: LEGO, 路線図? -->
+</s>
+</article>
+</log>

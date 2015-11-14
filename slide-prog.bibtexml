@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../bibtexml2html.xsl"?>
+<file xmlns="http://bibtexml.sf.net/">
+
+<entry id="neumann"><misc>
+	<author>Wikimedia</author>
+	<title>File:JohnvonNeumann-LosAlamos.gif</title>
+	<url>https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.gif</url>
+</misc></entry>
+
+<entry id="turing"><misc>
+	<author>National Portrait Gallery</author>
+	<title>Alan Mathison Turing</title>
+	<url>http://www.npg.org.uk/collections/search/portrait/mw63680</url>
+</misc></entry>
+
+<entry id="dijkstra"><article>
+	<author>Edger Wybe Dijkstra</author>
+	<title>Go to statement considered harmful</title>
+	<journal>Communications of the ACM</journal>
+	<publisher>ACM</publisher>
+	<year>1968</year>
+	<volume>11</volume>
+	<month>mar</month>
+	<pages>147-148</pages>
+	<doi>10.1145/362929.362947</doi>
+</article></entry>
+
+<entry id="jis"><manual>
+	<author>日本工業標準調査会</author>
+	<title>JISX0121: 情報処理用流れ図・プログラム網図・システム資源図記号</title>
+	<year>1970</year>
+	<url>http://www.jisc.go.jp</url>
+</manual></entry>
+
+</file>
