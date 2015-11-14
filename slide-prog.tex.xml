@@ -55,39 +55,6 @@
 		<li mark="※"><em>フローチャート</em>(流れ図): アルゴリズムを図形と線で記述した図</li>
 	</ul>
 </block>
-
-<block title="例: 自然数$p$の素数判定" xml:id="prime">
-	<ol>
-		<li>$p = 1$なら$p$は素数でないので終了する</li>
-		<li>変数$n$に2を<em>代入</em>する<br/>
-			(代入文を$n = 2$と表す)</li>
-		<li>$n$が$p$より小さければ次の命令を実行
-			<ol>
-				<li>もし$p$が$n$で割り切れたら、$p$は合成数なので終了する</li>
-				<li>(そうでなければ、)nに1を加える</li>
-				<li>(3)へ戻る</li>
-			</ol>
-		</li>
-		<li>($n = p$より)$p$は素数だと分かったので終了する</li>
-	</ol>
-</block>
-
-<!-- FIXME: たぶん素数判定のほうが分かりやすい
-<block title="例: 二次方程式$ax^2 + bx + c = 0$を解く">
-	<ol>
-		<li>判別式$D (= b^2 - 4ac)$の値を求める</li>
-		<li>$D$の値により場合分けする
-			<ol>
-				<li>もし$D &gt; 0$なら、異なる2つの実数解が存在するので、次の値を求める
-					\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
-					</li>
-				<li>もし$D = 0$なら、重解をもつので、次の値を求める
-					\[ x = - \frac{b}{2a} \]</li>
-				<li>もし$D &lt; 0$なら、実数解をもたない</li>
-			</ol>
-		</li>
-	</ol>
-</block>-->
 </frame>
 
 <frame title="\insertsection">
@@ -108,8 +75,49 @@
 
 <frame title="\insertsection">
 <multicols>
+<column width="5cm">
+<block title="例:自動運転のアルゴリズム" xml:id="drive">
+	自動運転のアルゴリズムをフローチャートで表す
+	<ul>
+		<li mark="※">順次、選択、反復をすべて用いる</li>
+	</ul>
+</block>
+</column>
 <column width="7cm">
-<xi:include xpointer="xpointer(id('prime'))"/>
+	<img src="flow-car-empty.svg" scale=".5" title="自動運転"/>
+</column>
+</multicols>
+</frame>
+
+<frame title="\insertsection">
+<multicols>
+<column width="5cm">
+<xi:include xpointer="xpointer(id('drive'))"/>
+</column>
+<column width="7cm">
+	<img src="flow-car.svg" scale=".5" title="自動運転"/>
+</column>
+</multicols>
+</frame>
+
+<frame title="\insertsection">
+<multicols>
+<column width="7cm">
+<block title="例: 自然数$p$の素数判定" xml:id="prime">
+	<ol>
+		<li>$p = 1$なら$p$は素数でないので終了する</li>
+		<li>変数$n$に2を<em>代入</em>する<br/>
+			(代入文を$n = 2$と表す)</li>
+		<li>$n$が$p$より小さければ次の命令を実行
+			<ol>
+				<li>もし$p$が$n$で割り切れたら、$p$は合成数なので終了する</li>
+				<li>(そうでなければ、)nに1を加える</li>
+				<li>(3)へ戻る</li>
+			</ol>
+		</li>
+		<li>($n = p$より)$p$は素数だと分かったので終了する</li>
+	</ol>
+</block>
 </column>
 <column width="5cm">
 	<img src="prime-empty.svg" scale=".5" title="素数判定" n="fig:prime-empty"/>
