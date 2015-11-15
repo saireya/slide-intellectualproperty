@@ -45,7 +45,7 @@
 	互いに<em>メッセージ</em>を送る<alert>オブジェクト</alert>の集まりとしてプログラムを作成
 </block>
 
-<!-- TODO: オブジェクトのメッセージ交換の図 -->
+<img src="msg-car.svg" scale=".7" title="自動運転でのメッセージ交換" n="fig:msg-car"/>
 </frame>
 
 <frame title="\insertsection">
@@ -83,7 +83,7 @@
 <frame title="\insertsection">
 <multicols>
 <column width="5cm">
-<block title="例:自動運転のアルゴリズム" xml:id="drive">
+<block title="例: 自動運転のアルゴリズム" xml:id="drive">
 	自動運転のアルゴリズムをフローチャートで表す
 	<ul>
 		<li mark="※">順次、選択、反復をすべて用いる</li>
@@ -170,7 +170,7 @@
 </frame>
 </s>
 
-<s h="モデル">
+<s h="モデル化">
 <frame title="\insertsection">
 <block class="alert" title="モデル(model)">
 	現実の現象から<ruby r="じょうちょう">冗長</ruby>な部分を除き、<em>本質的な部分のみに単純化</em>(<alert>抽象化</alert>)したもの
