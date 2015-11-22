@@ -91,7 +91,7 @@
 </block>
 </column>
 <column width="7cm">
-	<img src="flow-car-empty.svg" scale=".5" title="自動運転"/>
+	<img src="car-empty.svg" scale=".5" title="自動運転"/>
 </column>
 </multicols>
 </frame>
@@ -102,7 +102,7 @@
 <xi:include xpointer="xpointer(id('drive'))"/>
 </column>
 <column width="7cm">
-	<img src="flow-car.svg" scale=".5" title="自動運転"/>
+	<img src="car.svg" scale=".5" title="自動運転"/>
 </column>
 </multicols>
 </frame>
@@ -190,7 +190,7 @@
 </block>
 </column>
 <column width="5cm">
-	<img src="flow-post.svg" scale=".45" n="fig:post" xml:id="fig-post"/>
+	<img src="post.svg" scale=".45" n="fig:post" xml:id="fig-post"/>
 </column>
 </multicols>
 </frame>
