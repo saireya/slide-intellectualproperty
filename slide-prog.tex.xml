@@ -83,8 +83,8 @@
 <frame title="\insertsection">
 <multicols>
 <column width="5cm">
-<block title="例: 自動運転のアルゴリズム" xml:id="drive">
-	自動運転のアルゴリズムをフローチャートで表す
+<block title="例1: 自動運転" xml:id="drive">
+	自動運転のアルゴリズムを、フローチャートで表す
 	<ul>
 		<li mark="※">順次、選択、反復をすべて用いる</li>
 	</ul>
@@ -110,11 +110,11 @@
 <frame title="\insertsection">
 <multicols>
 <column width="7cm">
-<block title="例: 自然数$p$の素数判定" xml:id="prime">
+<block title="例2: 自然数$p$の素数判定" xml:id="prime">
 	<ol>
 		<li>$p = 1$なら$p$は素数でないので終了する</li>
 		<li>変数$n$に2を<em>代入</em>する<br/>
-			(代入文を$n = 2$と表す)</li>
+			(代入文は$n = 2$のように表す)</li>
 		<li>$n$が$p$より小さければ次の命令を実行
 			<ol>
 				<li>もし$p$が$n$で割り切れたら、$p$は合成数なので終了する</li>
@@ -146,12 +146,12 @@
 <frame title="\insertsection">
 <multicols>
 <column width="7cm">
-<block title="Scratchでの例">
-	<img src="prime-scratch.png" scale=".4"/>
+<block title="Pythonでのプログラム例">
+	<code src="prime.py"/>
 </block>
 </column>
 <column width="5cm">
-	<img src="prime.svg" scale=".5" title="フローチャート"/>
+	<img src="prime.svg" scale=".5"/>
 </column>
 </multicols>
 </frame>
@@ -159,12 +159,84 @@
 <frame title="\insertsection">
 <multicols>
 <column width="7cm">
-<block title="Pythonでの例">
-	<code src="prime.py"/>
+<block title="Scratchでのプログラム例">
+	<img src="prime-scratch.png" scale=".4"/>
 </block>
 </column>
 <column width="5cm">
-	<img src="prime.svg" scale=".5" title="フローチャート"/>
+	<img src="prime.svg" scale=".5"/>
+</column>
+</multicols>
+</frame>
+
+<frame title="\insertsection">
+<multicols>
+<column width="7cm">
+<block title="例3: 郵便物を受け取る">
+「郵便受けを見てきて!」という指示には、<br/>
+「
+<ol>
+	<li>郵便受けのある<em>玄関まで行く</em></li>
+	<li>郵便受けの<em>フタを開ける</em></li>
+	<li>郵便受けの中に<br/>
+		<em>郵便物が入っているか確認</em>する</li>
+	<li>もし<em>郵便物が入っていたら</em>、<br/>
+		<em>それを取り出す</em></li>
+	<li>郵便受けの<em>フタを閉める</em></li>
+	<li>居間へ戻ってくる</li>
+</ol>
+…ということをしてほしい」<br/>
+という<alert>極めて複雑</alert>な意味がある
+</block>
+</column>
+<column width="5cm">
+	<img src="flow-post.svg" scale=".45" n="fig:post" xml:id="fig-post"/>
+</column>
+</multicols>
+</frame>
+
+<frame title="\insertsection">
+<block class="example" title="参考: 自閉スペクトラム障害(ASD)">
+他人との<em>社会的関係の形成の困難さ</em>、<em>言葉の発達の遅れ</em>、興味や関心が狭く<em>特定のものにこだわる</em>ことを特徴とする行動の障害
+<ul>
+	<li mark="※">以前「自閉症」「アスペルガー症候群」と呼ばれていたもの</li>
+</ul>
+</block>
+
+<block class="example" title="ASDの人の特徴">
+<ul>
+	<li>言葉の<em>裏の意味・皮肉</em>を理解しにくい</li>
+	<li><em>曖昧な(不明瞭な・一貫性のない)指示</em>を理解しにくい</li>
+	<li><em>暗黙のルール</em>(いわゆる「<em>常識</em>」)が分かりにくい</li>
+	<li>人の言うことを<em>鵜呑み</em>にしてしまう・<em>騙され</em>やすい</li>
+	<li><em>複数の答え</em>がある質問に答えにくい</li>
+</ul>
+<size size="small">出典:<a href="http://asperger.nerim.info">「アスペな大人」</a></size>
+</block>
+</frame>
+
+<frame title="\insertsection">
+<multicols>
+<column width="7cm">
+<block title="ASDの人とのコミュニケーション例">
+「郵便受けを見てきて!」と指示すると、
+<ul>
+	<li><alert>「郵便受けを見てきて!」</alert><br/>→ (玄関へ) →<em>「見てきたよ!」</em></li>
+	<li mark="⇨"><alert>「何か入っていた?」</alert><em>「?」</em></li>
+	<li><alert>「郵便受けの中に何か<br/>
+		入っていないか確認してきて!」</alert><br/>
+		→ (玄関へ)<br/>
+		→ <em>「新聞が入っていたよ!」</em></li>
+	<li mark="⇨"><alert>「新聞は?」</alert><em>「?」</em></li>
+	<li><alert>「郵便受けに入っていた<br/>
+		新聞を取ってきて!」</alert><br/>
+		→ (玄関へ)<br/>
+		→<em>「取ってきたよ!」</em></li>
+</ul>
+</block>
+</column>
+<column width="5cm">
+	<xi:include xpointer="xpointer(id('fig-post'))"/>
 </column>
 </multicols>
 </frame>
