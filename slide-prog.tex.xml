@@ -272,5 +272,131 @@
 
 <!-- TODO: モデルの例: LEGO, 路線図? -->
 </s>
+
+<s h="表計算">
+<s h="表">
+<frame title="\insertsubsection">
+<block title="表" class="alert">
+	<em>縦方向</em>の<alert>行</alert>($1, 2, \cdots$)と、<em>横方向</em>の<alert>列</alert>($A, B, \cdots$)で定まる<alert>セル(cell)</alert>からなる
+</block>
+<img src="excel-cell.png" scale=".5" n="fig:excel-cell"/>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="数式">
+	数式は「=」で始める
+	<m>
+	=3+2 \\
+	=3*2 \\
+	=3/2
+	</m>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="セルのコピー">
+	右下隅の「■」をドラッグする
+</block>
+<multicols num="2">
+	<img src="excel-copy1.png" n="fig:excel-copy1"/>
+	<img src="excel-copy2.png" n="fig:excel-copy2"/>
+</multicols>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="行・列の固定">
+	数字orアルファベットの前に「\$」を追加する
+	\[ =A\$1 * \$B2 \]
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="実習: 九九の表" class="example">
+	$1 \times 1 = 1, \cdots, 9 \times 9 = 81$までの積の表を作成する
+</block>
+<img src="excel-multiply.png" scale=".6" n="fig:excel-multiply"/>
+</frame>
+</s>
+
+<s h="関数">
+<frame title="\insertsubsection">
+<block title="関数" class="alert">
+	<ruby r="ひきすう"><alert>引数</alert></ruby>を受け取り値を返す
+	\[ \text{関数名}(\text{引数1}, \text{引数2}, \cdots) \]
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="平方根: sqrt関数">
+	引数の(正の)<alert>平方根</alert>(<em>sq</em>uare <em>r</em>oo<em>t</em>)を返す
+	\[ \text{sqrt}(4) = 2 \]
+</block>
+
+<block title="余り: mod関数">
+	第1引数を第2引数で割った<alert>余り</alert>(<em>mod</em>ular)を返す
+	\[ \text{mod}(7, 3) = 1 (7 \equiv 1 (\text{mod} 3)) \]
+</block>
+
+<block title="合計: sum関数">
+	引数の<alert>合計</alert>(<em>sum</em>)を返す
+	\[ \text{sum}(a1, a2) = \text{sum}(a1:a2) \]
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="条件分岐: if関数">
+	<alert>条件</alert>の真偽により返す値を変える
+	\[ \text{if}(\text{条件}, \text{真のとき}, \text{偽のとき}) \]
+</block>
+</frame>
+</s>
+
+<s h="乱数">
+<frame title="\insertsubsection">
+<block title="乱数: rand関数">
+	0以上1未満の<alert>乱数</alert>(<em>rand</em>om)を返す
+	\[ 0 \leq \text{rand}() &lt; 1 \]
+</block>
+
+<block title="切り捨て: int関数">
+	引数の<alert>整数部分</alert>(<em>int</em>eger, $[x]$)を返す
+	\[ \text{int}(3.4) = 3 \]
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="順位: rank関数">
+	第1引数の第2引数の範囲内での<alert>順位</alert>(<em>rank</em>ing)を返す
+	\[ \text{rank}(\text{順位を求める数値}, \text{対象範囲}) \]
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="実習: 席替えプログラム" class="example">
+	rand, rank関数を組み合わせる
+</block>
+</frame>
+
+<!-- TODO: vlookup関数? -->
+
+<frame title="\insertsubsection">
+<block title="数え上げ: countif関数">
+	第1引数の範囲内で第2引数の条件を満たすセルの個数を数える
+	<m>
+	\text{countif}(\text{対象範囲}, 50)        &amp; (\text{範囲内で値が50のセルの個数}) \\
+	\text{countif}(\text{対象範囲}, "&gt;50")  &amp; (\text{範囲内で50より大きいのセルの個数}) \\
+	\text{countif}(\text{対象範囲}, "&gt;=50") &amp; (\text{範囲内で50以上のセルの個数}) \\
+	\text{countif}(\text{対象範囲}, "abc")     &amp; (\text{範囲内で値が文字列abcのセルの個数})
+	</m>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="実習: サイコロの頻度分布" class="example">
+	rand関数の結果をcountif関数で数え上げる
+</block>
+</frame>
+</s>
+</s>
 </article>
 </log>
