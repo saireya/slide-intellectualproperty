@@ -375,6 +375,7 @@
 <block title="実習: 席替えプログラム" class="example">
 	rand, rank関数を組み合わせる
 </block>
+<img src="excel-exchange.png" scale=".75" n="fig:excel-exchange"/>
 </frame>
 
 <!-- TODO: vlookup関数? -->
@@ -395,6 +396,7 @@
 <block title="実習: サイコロの頻度分布" class="example">
 	rand関数の結果をcountif関数で数え上げる
 </block>
+<img src="excel-aggr.png" scale=".75" n="fig:excel-aggr"/>
 </frame>
 </s>
 </s>
