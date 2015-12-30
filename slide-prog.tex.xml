@@ -399,6 +399,53 @@
 <img src="excel-aggr.png" scale=".75" n="fig:excel-aggr"/>
 </frame>
 </s>
+
+
+<s h="マクロ">
+<frame title="\insertsubsection">
+<block title="マクロ" class="alert">
+	ユーザが行う処理を自動化
+	<ul>
+		<li>Excelのマクロは<em>VBA(Visual Basic for Applications)</em>という言語で記録される</li>
+		<li mark="※">VBAは強力なので、通常は無効化されている</li>
+	</ul>
+</block>
+</frame>
+</s>
+
+
+<s h="シミュレーション">
+<frame title="\insertsubsection">
+<block title="モンテカルロ法" class="alert">
+	確率的な手法で近似的に解を計算する手法
+	<ul>
+		<li>厳密解の算出に時間を要する問題の近似解を短時間で導出可能</li>
+	</ul>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<multicols>
+<column width="8cm">
+<block title="演習: 円周率の推定" class="example">
+	1辺$r$の正方形内に半径$r$、中心角$90^\circ$の扇形があるとき、
+	<m>
+		(\text{正方形の面積}) : (\text{扇形の面積})
+		&amp;= S_1 : S_2 \\
+		&amp;= r^2 : \pi r^2 \times \frac{1}{4} \\
+		&amp;= 4 : \pi
+	</m>
+	正方形上に$N_\text{all}$個の点を蒔いたとき、$N_\text{in}$個が扇形上にあるとすると、
+	\[ 4 : \pi \simeq N_\text{all} : N_\text{in} \]
+	より、$\pi \simeq 4 \times \frac{N_\text{in}}{N_\text{all}}$
+</block>
+</column>
+<column width="4cm">
+<img src="monte-carlo.svg" scale=".75" n="fig:monte-carlo"/>
+</column>
+</multicols>
+</frame>
+</s>
 </s>
 </article>
 </log>
