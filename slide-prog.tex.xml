@@ -445,6 +445,10 @@
 </column>
 </multicols>
 </frame>
+
+<frame title="\insertsubsection">
+<img src="monte-carlo-flow.svg" scale=".45" n="fig:monte-carlo-flow"/>
+</frame>
 </s>
 </s>
 </article>
