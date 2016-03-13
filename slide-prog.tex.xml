@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../../texml2html.xsl"?>
-<log xmlns:xi="http://www.w3.org/2003/XInclude" title="プログラミング" by="" slide="1" embed="1" bib="slide-prog">
+<log xmlns:xi="http://www.w3.org/2003/XInclude" title="プログラミング" by="" slide="1" embed="1" bib="slide-prog" biball="1">
 <article>
 <s h="プログラミング">
 <frame title="\insertsection">
