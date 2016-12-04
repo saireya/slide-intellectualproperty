@@ -365,22 +365,6 @@
 </frame>
 
 <frame title="\insertsubsection">
-<block title="順位: rank関数">
-	第1引数の第2引数の範囲内での<alert>順位</alert>(<em>rank</em>ing)を返す
-	\[ \text{rank}(\text{順位を求める数値}, \text{対象範囲}) \]
-</block>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="実習: 席替えプログラム" class="example">
-	rand, rank関数を組み合わせる
-</block>
-<img src="excel-exchange.png" scale=".75" n="fig:excel-exchange"/>
-</frame>
-
-<!-- TODO: vlookup関数? -->
-
-<frame title="\insertsubsection">
 <block title="数え上げ: countif関数">
 	第1引数の範囲内で第2引数の条件を満たすセルの個数を数える
 	<m>
@@ -397,6 +381,31 @@
 	rand関数の結果をcountif関数で数え上げる
 </block>
 <img src="excel-aggr.png" scale=".75" n="fig:excel-aggr"/>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="順位: rank関数">
+	第1引数の第2引数の範囲内での<alert>順位</alert>(<em>rank</em>ing)を返す
+	\[ \text{rank}(\text{順位を求める数値}, \text{対象範囲}) \]
+</block>
+
+<block title="検索: vlookup関数">
+	第2引数の範囲内の左端の列から第1引数の値を<alert>検索</alert>(<em>look up</em>)し、第3引数の列の値を返す
+	\[ \text{vlookup}(\text{検索する値}, \text{対象範囲}, \text{取り出す列の番号}, \text{検索方法}) \]
+	<ul>
+		<li mark="※">「v」は垂直方向(vertical)に検索するという意味</li>
+	</ul>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="実習: 席替えプログラム" class="example">
+	rand, rank関数を組み合わせる
+	<ul>
+		<li mark="※">名簿の表を用意してvlookup関数を用いれば、氏名を表示可能</li>
+	</ul>
+</block>
+<img src="excel-exchange.png" scale=".75" n="fig:excel-exchange"/>
 </frame>
 </s>
 
