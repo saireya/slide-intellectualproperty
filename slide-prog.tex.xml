@@ -49,10 +49,10 @@
 </frame>
 
 <frame title="\insertsection">
-<block title="実習:Squeak">
-	自動運転プログラムの作成
+<block title="実習: 自動運転">
+	順次、選択、反復を用いた自動運転プログラムの作成
 </block>
-<img src="car.png" scale=".25" title="自動運転プログラム" n="fig:drive"/>
+<img src="car.png" scale=".4" title="自動運転プログラム" n="fig:drive"/>
 </frame>
 
 <frame title="\insertsection">
