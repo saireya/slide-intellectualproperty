@@ -81,9 +81,23 @@
 </frame>
 
 <frame title="\insertsection">
+<block title="例1: 左右に進み続けるプログラム">
+	左のプログラムをフローチャートで表すと、右のようになる
+</block>
+<multicols>
+<column width="6cm">
+	<img src="walk.png" title="プログラム"/>
+</column>
+<column width="6cm">
+	<img src="walk.svg" scale=".5" title="フローチャート"/>
+</column>
+</multicols>
+</frame>
+
+<frame title="\insertsection">
 <multicols>
 <column width="5cm">
-<block title="例1: 自動運転" xml:id="drive">
+<block title="例2: 自動運転" xml:id="drive">
 	自動運転のアルゴリズムを、フローチャートで表す
 	<ul>
 		<li mark="※">順次、選択、反復をすべて用いる</li>
@@ -110,7 +124,7 @@
 <frame title="\insertsection">
 <multicols>
 <column width="7cm">
-<block title="例2: 自然数$p$の素数判定" xml:id="prime">
+<block title="例3: 自然数$p$の素数判定" xml:id="prime">
 	<ol>
 		<li>$p = 1$なら$p$は素数でないので終了する</li>
 		<li>変数$n$に2を<em>代入</em>する<br/>
