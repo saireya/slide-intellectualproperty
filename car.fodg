@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.graphics">
- <office:meta><meta:creation-date>2015-10-31T14:57:54.037274385</meta:creation-date><dc:title>青系-Draw</dc:title><meta:editing-duration>PT1H46M22S</meta:editing-duration><meta:editing-cycles>12</meta:editing-cycles><meta:generator>LibreOffice/4.4.6.3$Linux_X86_64 LibreOffice_project/40$Build-3</meta:generator><dc:date>2015-11-29T15:48:53.578947061</dc:date><meta:document-statistic meta:object-count="19"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="青系-Draw" xlink:href="../../../../Config/.config/libreoffice/4/user/template/青系-Draw1.otg" meta:date="2015-10-31T14:57:52.022857172"/></office:meta>
+ <office:meta><meta:creation-date>2015-10-31T14:57:54.037274385</meta:creation-date><dc:title>青系-Draw</dc:title><meta:editing-duration>PT1H51M6S</meta:editing-duration><meta:editing-cycles>15</meta:editing-cycles><meta:generator>LibreOffice/5.4.3.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><dc:date>2017-11-19T22:44:42.081695606</dc:date><meta:document-statistic meta:object-count="19"/><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="青系-Draw" xlink:href="../../../../Config/.config/libreoffice/4/user/template/青系-Draw1.otg" meta:date="2015-10-31T14:57:52.022857172"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="VisibleAreaTop" config:type="int">771</config:config-item>
-   <config:config-item config:name="VisibleAreaLeft" config:type="int">-5369</config:config-item>
+   <config:config-item config:name="VisibleAreaTop" config:type="int">-1181</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">-6615</config:config-item>
    <config:config-item config:name="VisibleAreaWidth" config:type="int">30531</config:config-item>
    <config:config-item config:name="VisibleAreaHeight" config:type="int">14953</config:config-item>
    <config:config-item-map-indexed config:name="Views">
@@ -34,13 +34,11 @@
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">false</config:config-item>
      <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
-     <config:config-item config:name="EditModeStandard" config:type="int">0</config:config-item>
-     <config:config-item config:name="EditModeNotes" config:type="int">0</config:config-item>
-     <config:config-item config:name="EditModeHandout" config:type="int">1</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">655</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-5606</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">29629</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">14514</config:config-item>
+     <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-1181</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-6615</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">31727</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">12876</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">1000</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">500</config:config-item>
@@ -52,6 +50,7 @@
      <config:config-item config:name="IsAngleSnapEnabled" config:type="boolean">false</config:config-item>
      <config:config-item config:name="SnapAngle" config:type="int">1500</config:config-item>
      <config:config-item config:name="ZoomOnPage" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-indexed>
   </config:config-item-set>
@@ -98,8 +97,8 @@
    <config:config-item config:name="ParagraphSummation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
    <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string">MP540-series</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">ogH+/01QNTQwLXNlcmllcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpNUDU0MC1zZXJpZXMAAAAAAAAAAAAAAAAAAAAWAAMAxAAAAAAAAgAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9TVA1NDAtc2VyaWVzCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luZGFqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4RGF0YQpJbnB1dFNsb3Q6Q2Fzc2V0dGUAUGFnZVNpemU6QTQAABIAQ09NUEFUX0RVUExFWF9NT0RFDgBEVVBMRVhfVU5LTk9XTg==</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">Canon-MP540-series</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">mgH+/0Nhbm9uLU1QNTQwLXNlcmllcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpDYW5vbi1NUDU0MC1zZXJpZXMAAAAAAAAAAAAWAAMAtwAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9Q2Fub24tTVA1NDAtc2VyaWVzCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luZGFqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4RGF0YQpQYWdlU2l6ZTpBNAAAEgBDT01QQVRfRFVQTEVYX01PREUTAER1cGxleE1vZGU6OlVua25vd24=</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ScaleDenominator" config:type="int">1</config:config-item>
    <config:config-item config:name="ScaleNumerator" config:type="int">1</config:config-item>
@@ -118,6 +117,7 @@
   <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="DejaVu Sans Condensed" svg:font-family="&apos;DejaVu Sans Condensed&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="IPA Pゴシック" svg:font-family="&apos;IPA Pゴシック&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans CJK JP Regular" svg:font-family="&apos;Noto Sans CJK JP Regular&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="VL Pゴシック" svg:font-family="&apos;VL Pゴシック&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
  </office:font-face-decls>
@@ -127,7 +127,7 @@
   <draw:stroke-dash draw:name="Dashed_20__28_var_29__20_1" draw:display-name="Dashed (var) 1" draw:style="rect" draw:dots1="1" draw:dots1-length="0.02cm" draw:dots2="1" draw:dots2-length="0.02cm" draw:distance="0.02cm"/>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#000000" draw:fill-color="#99ccff" fo:wrap-option="no-wrap"/>
-   <style:paragraph-properties style:text-autospace="none" style:punctuation-wrap="simple" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="none" style:punctuation-wrap="simple" style:line-break="strict" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="24pt" fo:language="en" fo:country="US" style:font-name-asian="VL Pゴシック" style:font-size-asian="24pt" style:language-asian="ja" style:country-asian="JP" style:font-name-complex="Tahoma" style:font-size-complex="24pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -268,9 +268,12 @@
    <style:graphic-properties draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="0.75cm" fo:min-width="2.5cm"/>
   </style:style>
   <style:style style:name="gr6" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="0.5cm" fo:min-width="2.25cm"/>
+   <style:graphic-properties draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="0.5cm" fo:min-width="1.75cm"/>
   </style:style>
-  <style:style style:name="gr7" style:family="graphic" style:parent-style-name="objectwithoutfill">
+  <style:style style:name="gr7" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="0.75cm" fo:min-width="4.499cm"/>
+  </style:style>
+  <style:style style:name="gr8" style:family="graphic" style:parent-style-name="objectwithoutfill">
    <style:graphic-properties draw:marker-end="Arrow" draw:marker-end-width="0.3cm" draw:fill="none" draw:textarea-horizontal-align="center" draw:textarea-vertical-align="middle"/>
   </style:style>
   <style:style style:name="P1" style:family="paragraph">
@@ -385,7 +388,7 @@
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:glue-points="10800 0 3163 3163 0 10800 3163 18437 10800 21600 18437 18437 21600 10800 18437 3163" draw:text-areas="3163 3163 18437 18437" draw:type="ellipse" draw:enhanced-path="U 10800 10800 10800 10800 0 360 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr3" draw:text-style-name="P2" xml:id="id3" draw:id="id3" draw:layer="car" svg:width="4.5cm" svg:height="1cm" svg:x="2.501cm" svg:y="5.001cm">
-     <text:p text:style-name="P2"><text:span text:style-name="T1">車を進める</text:span></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1">ネコを進める</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
     <draw:custom-shape draw:style-name="gr4" draw:text-style-name="P2" xml:id="id11" draw:id="id11" draw:layer="car" svg:width="3cm" svg:height="1cm" svg:x="3.253cm" svg:y="11.898cm">
@@ -401,7 +404,7 @@
       <draw:handle draw:handle-position="$0 bottom" draw:handle-range-x-minimum="0" draw:handle-range-x-maximum="10800"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:connector draw:style-name="gr1" draw:text-style-name="P1" draw:layer="car" draw:type="line" svg:x1="4.751cm" svg:y1="6.001cm" svg:x2="4.751cm" svg:y2="7.001cm" draw:start-shape="id3" draw:start-glue-point="6" draw:end-shape="id4" draw:end-glue-point="4" svg:d="M4751 6001v1000" svg:viewBox="0 0 1 1001">
+    <draw:connector draw:style-name="gr1" draw:text-style-name="P1" draw:layer="car" draw:type="line" svg:x1="4.751cm" svg:y1="6.001cm" svg:x2="4.75cm" svg:y2="7cm" draw:start-shape="id3" draw:start-glue-point="6" draw:end-shape="id4" draw:end-glue-point="4" svg:d="M4751 6001l-1 999" svg:viewBox="0 0 2 1000">
      <text:p/>
     </draw:connector>
     <draw:custom-shape draw:style-name="gr5" draw:text-style-name="P2" xml:id="id5" draw:id="id5" draw:layer="car" svg:width="3cm" svg:height="1cm" svg:x="3.253cm" svg:y="3.039cm">
@@ -420,42 +423,42 @@
     <draw:connector draw:style-name="gr1" draw:text-style-name="P1" draw:layer="car" draw:type="line" svg:x1="4.753cm" svg:y1="4.039cm" svg:x2="4.751cm" svg:y2="5.001cm" draw:start-shape="id5" draw:start-glue-point="7" draw:end-shape="id3" draw:end-glue-point="4" svg:d="M4753 4039l-2 962" svg:viewBox="0 0 3 963">
      <text:p/>
     </draw:connector>
-    <draw:custom-shape draw:style-name="gr6" draw:text-style-name="P2" xml:id="id4" draw:id="id4" draw:layer="car" svg:width="5.5cm" svg:height="1.5cm" svg:x="2.001cm" svg:y="7.001cm">
-     <text:p text:style-name="P2"><text:span text:style-name="T2">右</text:span><text:span text:style-name="T3">センサーが</text:span></text:p>
+    <draw:custom-shape draw:style-name="gr6" draw:text-style-name="P2" xml:id="id4" draw:id="id4" draw:layer="car" svg:width="4.5cm" svg:height="1.5cm" svg:x="2.5cm" svg:y="7cm">
+     <text:p text:style-name="P2"><text:span text:style-name="T2">左端</text:span><text:span text:style-name="T3">が</text:span></text:p>
      <text:p text:style-name="P2"><text:span text:style-name="T3">道路上</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:text-areas="5400 5400 16200 16200" draw:type="flowchart-decision" draw:enhanced-path="M 0 10800 L 10800 0 21600 10800 10800 21600 0 10800 Z N"/>
     </draw:custom-shape>
-    <draw:custom-shape draw:style-name="gr3" draw:text-style-name="P2" xml:id="id6" draw:id="id6" draw:layer="car" svg:width="4.5cm" svg:height="1cm" svg:x="8.501cm" svg:y="7.249cm">
-     <text:p text:style-name="P2"><text:span text:style-name="T1">車を</text:span><text:span text:style-name="T4">左</text:span><text:span text:style-name="T1">に回す</text:span></text:p>
+    <draw:custom-shape draw:style-name="gr7" draw:text-style-name="P2" xml:id="id6" draw:id="id6" draw:layer="car" svg:width="4.999cm" svg:height="1cm" svg:x="8.501cm" svg:y="7.249cm">
+     <text:p text:style-name="P2"><text:span text:style-name="T1">ネコを</text:span><text:span text:style-name="T4">右</text:span><text:span text:style-name="T1">に回す</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
-    <draw:connector draw:style-name="gr7" draw:text-style-name="P1" draw:layer="car" draw:type="line" svg:x1="7.501cm" svg:y1="7.751cm" svg:x2="8.501cm" svg:y2="7.749cm" draw:start-shape="id4" draw:start-glue-point="7" draw:end-shape="id6" svg:d="M7501 7751l1000-2" svg:viewBox="0 0 1001 3">
+    <draw:connector draw:style-name="gr8" draw:text-style-name="P1" draw:layer="car" draw:type="line" svg:x1="7cm" svg:y1="7.75cm" svg:x2="8.501cm" svg:y2="7.749cm" draw:start-shape="id4" draw:start-glue-point="7" draw:end-shape="id6" svg:d="M7000 7750l1501-1" svg:viewBox="0 0 1502 2">
      <text:p text:style-name="P2"><text:span text:style-name="T5">No </text:span></text:p>
      <text:p text:style-name="P2"><text:span text:style-name="T5"/></text:p>
     </draw:connector>
-    <draw:connector draw:style-name="gr1" draw:text-style-name="P4" draw:layer="car" svg:x1="10.751cm" svg:y1="8.249cm" svg:x2="4.751cm" svg:y2="8.995cm" draw:start-shape="id6" draw:start-glue-point="6" draw:end-shape="id7" draw:end-glue-point="0" svg:d="M10751 8249v746h-6000" svg:viewBox="0 0 6001 747">
+    <draw:connector draw:style-name="gr1" draw:text-style-name="P4" draw:layer="car" svg:x1="11.001cm" svg:y1="8.249cm" svg:x2="4.751cm" svg:y2="8.995cm" draw:start-shape="id6" draw:start-glue-point="6" draw:end-shape="id7" draw:end-glue-point="0" svg:d="M11001 8249v746h-6250" svg:viewBox="0 0 6251 747">
      <text:p/>
     </draw:connector>
-    <draw:custom-shape draw:style-name="gr6" draw:text-style-name="P2" xml:id="id8" draw:id="id8" draw:layer="car" svg:width="5.5cm" svg:height="1.5cm" svg:x="2.001cm" svg:y="9.489cm">
-     <text:p text:style-name="P2"><text:span text:style-name="T6">左</text:span><text:span text:style-name="T3">センサーが</text:span></text:p>
+    <draw:custom-shape draw:style-name="gr6" draw:text-style-name="P2" xml:id="id8" draw:id="id8" draw:layer="car" svg:width="4.5cm" svg:height="1.5cm" svg:x="2.5cm" svg:y="9.489cm">
+     <text:p text:style-name="P2"><text:span text:style-name="T6">右端</text:span><text:span text:style-name="T3">が</text:span></text:p>
      <text:p text:style-name="P2"><text:span text:style-name="T3">道路上</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:text-areas="5400 5400 16200 16200" draw:type="flowchart-decision" draw:enhanced-path="M 0 10800 L 10800 0 21600 10800 10800 21600 0 10800 Z N"/>
     </draw:custom-shape>
-    <draw:custom-shape draw:style-name="gr3" draw:text-style-name="P2" xml:id="id9" draw:id="id9" draw:layer="car" svg:width="4.5cm" svg:height="1cm" svg:x="8.501cm" svg:y="9.741cm">
-     <text:p text:style-name="P2"><text:span text:style-name="T1">車を</text:span><text:span text:style-name="T7">右</text:span><text:span text:style-name="T1">に回す</text:span></text:p>
+    <draw:custom-shape draw:style-name="gr7" draw:text-style-name="P2" xml:id="id9" draw:id="id9" draw:layer="car" svg:width="4.999cm" svg:height="1cm" svg:x="8.501cm" svg:y="9.741cm">
+     <text:p text:style-name="P2"><text:span text:style-name="T1">ネコを</text:span><text:span text:style-name="T7">左</text:span><text:span text:style-name="T1">に回す</text:span></text:p>
      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:glue-points="10800 0 0 10800 10800 21600 21600 10800" draw:type="flowchart-process" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
     </draw:custom-shape>
-    <draw:connector draw:style-name="gr7" draw:text-style-name="P1" draw:layer="car" draw:type="line" svg:x1="7.501cm" svg:y1="10.239cm" svg:x2="8.501cm" svg:y2="10.241cm" draw:start-shape="id8" draw:start-glue-point="7" draw:end-shape="id9" svg:d="M7501 10239l1000 2" svg:viewBox="0 0 1001 3">
+    <draw:connector draw:style-name="gr8" draw:text-style-name="P1" draw:layer="car" draw:type="line" svg:x1="7cm" svg:y1="10.239cm" svg:x2="8.501cm" svg:y2="10.241cm" draw:start-shape="id8" draw:start-glue-point="7" draw:end-shape="id9" svg:d="M7000 10239l1501 2" svg:viewBox="0 0 1502 3">
      <text:p text:style-name="P2"><text:span text:style-name="T5">No </text:span></text:p>
      <text:p text:style-name="P2"><text:span text:style-name="T5"/></text:p>
     </draw:connector>
-    <draw:connector draw:style-name="gr1" draw:text-style-name="P4" draw:layer="car" svg:x1="10.751cm" svg:y1="10.741cm" svg:x2="4.752cm" svg:y2="11.443cm" draw:start-shape="id9" draw:start-glue-point="6" draw:end-shape="id10" draw:end-glue-point="0" svg:d="M10751 10741v702h-5999" svg:viewBox="0 0 6000 703">
+    <draw:connector draw:style-name="gr1" draw:text-style-name="P4" draw:layer="car" svg:x1="11.001cm" svg:y1="10.741cm" svg:x2="4.752cm" svg:y2="11.443cm" draw:start-shape="id9" draw:start-glue-point="6" draw:end-shape="id10" draw:end-glue-point="0" svg:d="M11001 10741v702h-6249" svg:viewBox="0 0 6250 703">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr7" draw:text-style-name="P1" xml:id="id7" draw:id="id7" draw:layer="car" draw:type="line" svg:x1="4.751cm" svg:y1="8.501cm" svg:x2="4.751cm" svg:y2="9.489cm" draw:start-shape="id4" draw:start-glue-point="6" draw:end-shape="id8" draw:end-glue-point="4" svg:d="M4751 8501v988" svg:viewBox="0 0 1 989">
-     <text:p text:style-name="P2"><text:span text:style-name="T8">Yes <text:s text:c="9"/></text:span></text:p>
+    <draw:connector draw:style-name="gr8" draw:text-style-name="P1" xml:id="id7" draw:id="id7" draw:layer="car" draw:type="line" svg:x1="4.75cm" svg:y1="8.5cm" svg:x2="4.75cm" svg:y2="9.489cm" draw:start-shape="id4" draw:start-glue-point="6" draw:end-shape="id8" draw:end-glue-point="4" svg:d="M4750 8500v989" svg:viewBox="0 0 1 990">
+     <text:p text:style-name="P2"><text:span text:style-name="T8">Yes <text:s text:c="4"/></text:span><text:span text:style-name="T8"><text:s text:c="5"/></text:span></text:p>
     </draw:connector>
-    <draw:connector draw:style-name="gr7" draw:text-style-name="P1" xml:id="id10" draw:id="id10" draw:layer="car" draw:type="line" svg:x1="4.751cm" svg:y1="10.989cm" svg:x2="4.753cm" svg:y2="11.898cm" draw:start-shape="id8" draw:start-glue-point="6" draw:end-shape="id11" draw:end-glue-point="7" svg:d="M4751 10989l2 909" svg:viewBox="0 0 3 910">
+    <draw:connector draw:style-name="gr8" draw:text-style-name="P1" xml:id="id10" draw:id="id10" draw:layer="car" draw:type="line" svg:x1="4.75cm" svg:y1="10.989cm" svg:x2="4.753cm" svg:y2="11.898cm" draw:start-shape="id8" draw:start-glue-point="6" draw:end-shape="id11" draw:end-glue-point="7" svg:d="M4750 10989l3 909" svg:viewBox="0 0 4 910">
      <text:p text:style-name="P2"><text:span text:style-name="T8">Yes <text:s text:c="9"/></text:span></text:p>
     </draw:connector>
    </draw:page>
