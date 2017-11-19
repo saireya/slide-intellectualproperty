@@ -365,14 +365,14 @@
 
 <s h="乱数">
 <frame title="\insertsubsection">
+<block title="乱数: randbetween関数">
+	最小値から最大値までの<alert>整数の乱数</alert>を返す
+	\[ \text{randbetween}(2, 9) = 2, 3, 4, \cdots, 8, 9 \]
+</block>
+
 <block title="乱数: rand関数">
 	0以上1未満の<alert>乱数</alert>(<em>rand</em>om)を返す
 	\[ 0 \leq \text{rand}() &lt; 1 \]
-</block>
-
-<block title="切り捨て: int関数">
-	引数の<alert>整数部分</alert>(<em>int</em>eger, $[x]$)を返す
-	\[ \text{int}(3.4) = 3 \]
 </block>
 </frame>
 
