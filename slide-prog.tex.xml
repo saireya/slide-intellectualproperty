@@ -56,6 +56,22 @@
 </frame>
 
 <frame title="\insertsection">
+<block title="「プログラミング的思考」">
+	自分が意図する一連の活動を実現するために、
+	<size size="small">
+	<ol>
+		<li><em>どのような動きの組合せが必要</em>であり、</li>
+		<li>一つ一つの<em>動きに対応した記号を、どのように組み合わせ</em>たらいいのか、</li>
+		<li>記号の<em>組合せをどのように改善</em>していけば、より意図した活動に近づくのか、</li>
+	</ol>
+	</size>
+	といったことを論理的に考えていく力<br/>
+	(文科省「小学校段階におけるプログラミング教育の在り方について」)
+</block>
+<img src="programming-mext.svg" scale=".4" title="自動運転プログラムにおける「プログラミング的思考」" n="fig:mext"/>
+</frame>
+
+<frame title="\insertsection">
 <block class="alert" title="アルゴリズム">
 	<alert>問題を解く手順</alert>のこと
 	<ul>
